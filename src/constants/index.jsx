@@ -181,12 +181,12 @@ export const navBarButtons = [
   {
     text: "Sign In",
     href: "#!",
-    className: "py-2 px-3 border rounded-md",
+    className: "py-2 px-3 border rounded-md hover:bg-gray-700 transition duration-200",
   },
   {
     text: "Create an account",
     href: "#",
     className:
-      "bg-gradient-to-r from-orange-500 to-orange to-orange-800 py-2 px-3 rounded-md",
+      "bg-gradient-to-r from-orange-500 to-orange to-orange-800 py-2 px-3 rounded-md hover:brightness-110 transition duration-200",
   },
 ];
